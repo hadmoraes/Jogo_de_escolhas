@@ -116,7 +116,7 @@ h2:hover{
     transition: 100ms;
 }
 
-.botaoEscolha a{
+.botaoEscolha span{
     text-transform: uppercase;
     color: rgb(0, 0, 0);
     border-radius: 20px;
@@ -126,12 +126,12 @@ h2:hover{
     font-family: 'Acme', sans-serif;
 }
 
-.botaoEscolha a:hover{
+.botaoEscolha span:hover{
     font-size: large;
     transition: 200ms;
 }
 
-.botaoEscolha a:active{
+.botaoEscolha span:active{
     color: white;
     transition: 100ms;
 }
