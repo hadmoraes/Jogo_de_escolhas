@@ -1,13 +1,14 @@
 // Variáveis da Primeira Fase
-var botaoPrimeiraFase = '#botaoPrimeiraFase';
+var botaoPrimeiraFase = document.querySelector('#botaoPrimeiraFase');
 var pagAPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaPrimeiroGameOver.html'
 var pagBPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaSegundaFase.html'
 var escolha;
 
-function aparecePrompt (){
+function aparecePrompt(){
     escolha = prompt('Digite A ou B');
     return escolha
 }
+
 
 function abrePagSegundoEscolha(paginaA, paginaB, escolha){
     if(escolha == "A" || 'a'){
