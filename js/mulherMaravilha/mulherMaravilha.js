@@ -8,8 +8,8 @@ var pagBPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaSegundaFase.ht
 
 // Variáveis da Segunda Fase
 var botaoSegundaFase = document.querySelector('#botaoSegundaFase');
-var pagASegundaFase = '../../html/mulherMaravilha/mulherMaravilhaSegundoGameOver.html'
-var pagBSegundaFase = '../../html/mulherMaravilha/mulherMaravilhaTerceiraFase.html'
+var pagASegundaFase = '../../html/mulherMaravilha/mulherMaravilhaTerceiraFase.html'
+var pagBSegundaFase = '../../html/mulherMaravilha/mulherMaravilhaSegundoGameOver.html'
 
 
 function aparecePrompt(){
@@ -38,4 +38,6 @@ botaoPrimeiraFase.addEventListener('click', function(event){
     aparecePrompt()
     abrePagSegundoEscolha(pagAPrimeiraFase, pagBPrimeiraFase, escolha);
 })
+
+
 
