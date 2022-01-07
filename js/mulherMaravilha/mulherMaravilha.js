@@ -1,5 +1,8 @@
 var botaoPrimeiraFase = document.querySelector(".botaoEscolha");
 
+function abrePagDaWeb (pagina){
+    window.open(pagina);
+}
 
 function usuarioEscolhe(){
     let escolha = prompt('Digite A ou B');
