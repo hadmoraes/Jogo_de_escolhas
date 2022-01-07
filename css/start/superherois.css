@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=PT+Sans+Narrow:wght@700&family=Teko:wght@600&display=swap');
+
+body{
+    background-image: url("D:\Resilia\modulo1\projeto de fim de modulo\codigo\imagens\ligaDaJustica.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+.container{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 45%;
+    height: auto;
+    display: flex;
+    padding: 3%;
+    border: 2px black solid;
+    border-radius: 35px;
+    box-shadow: 0px 0px 40px -4px rgba(0, 0, 0, 0.89);
+    background-color: rgba(255, 255, 255, 0.678);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.explicacaoJogo{
+    font-size: x-large;
+}
+
+.comecarOJogo{
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 10px;
+    height: auto;
+    padding: 2%;
+}
+
+button a{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10% 0 10% 0;
+}
+
+button:hover{
+    background-color: rgba(70, 70, 70, 0.89);
+    transition: 200ms;
+}
+
+button a:hover{
+    color:  #bbbbbb;
+    font-size: larger;
+    transition: 200ms;
+}
+
+
+button:active{
+    background-color: rgba(255, 255, 255, 0.89);
+    transition: 100ms;
+}
+
+button a:active{
+    color:  #000000;
+    font-size: larger;
+    transition: 200ms;
+}
+
+
+@media (max-width:800px){
+    .body{
+        background-position: center top;
+    }
+    .container{
+        height: auto;
+    }
+    button{
+        background-color: rgba(0, 0, 0, 0.89);
+        border-radius: 10px;
+        height: auto;
+        width: 70%;
+    }
+}

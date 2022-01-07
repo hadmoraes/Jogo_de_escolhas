@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=PT+Sans+Caption:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Teko:wght@600&display=swap');
+
+body{
+    background-color: #ed1c23;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container{
+    margin-top: 5%;
+    margin-left: 17%;
+    margin-bottom: 5%;
+    width: 60%;
+    height: auto;
+    display: flex;
+    padding: 3%;
+    border: 2px black solid;
+    border-radius: 35px;
+    background-color: rgba(241, 241, 241, 0.685);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.explicacao{
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+
+.botaoVoltar{
+    background-color: yellow;
+    border-radius: 10px;
+    height: auto;
+    padding: 2%;
+}
+
+
+.botaoVoltar:active{
+    background-color: #007cb6;
+    transition: 100ms;
+}
+
+
+.botaoVoltar a{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10% 0 10% 0;
+    font-family: 'Acme', sans-serif;
+    font-size: large;
+}
+
+.botaoVoltar a:hover{
+    font-size: x-large;
+    transition: 200ms;
+}
+
+.botaoVoltar a:active{
+    color: white;
+    transition: 100ms;
+}
+
+
+
+
+footer{
+    text-align: center;
+}
+
+footer img{
+    width: 200px;
+}
+
+footer img:hover{
+    width: 300px;
+    transition: 300ms;
+}
+
+@media (max-width:800px){
+    .escolhas{
+        flex-direction: column;
+    }
+    .escolhaA{
+        width: 70%;
+        margin: 0 0 3% 0;
+    }
+    .escolhaB{
+        width: 70%;
+        margin: 3% 0 3% 0;
+    }
+}
