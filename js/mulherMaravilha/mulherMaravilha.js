@@ -9,7 +9,7 @@ function aparecePrompt (){
     return escolha
 }
 
-function usuarioEscolhe(paginaA, paginaB, escolha){
+function abrePagSegundoEscolha(paginaA, paginaB, escolha){
     if(escolha == "A" || 'a'){
         window.open(paginaA);
     } else{
@@ -24,5 +24,5 @@ botaoPrimeiraFase.addEventListener('click', function(event){
         alert('Resposta inválida, digite apenas A ou B');
         escolha = prompt('Digite A ou B');
     }
-    usuarioEscolhe(paginaA, paginaB, escolha);
+    abrePagSegundoEscolha(paginaA, paginaB, escolha);
 })
