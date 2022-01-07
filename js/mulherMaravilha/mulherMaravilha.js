@@ -1,7 +1,7 @@
 // Variáveis da Primeira Fase
 var botaoPrimeiraFase = '#botaoPrimeiraFase';
-var paginaAPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaPrimeiroGameOver.html'
-var paginaBPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaSegundaFase.html'
+var pagAPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaPrimeiroGameOver.html'
+var pagBPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaSegundaFase.html'
 var escolha;
 
 function aparecePrompt (){
@@ -24,5 +24,5 @@ botaoPrimeiraFase.addEventListener('click', function(event){
         alert('Resposta inválida, digite apenas A ou B');
         escolha = prompt('Digite A ou B');
     }
-    abrePagSegundoEscolha(paginaA, paginaB, escolha);
+    abrePagSegundoEscolha(pagAPrimeiraFase, pagBPrimeiraFase, escolha);
 })
