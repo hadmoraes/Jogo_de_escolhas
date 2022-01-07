@@ -7,7 +7,7 @@ var pagAPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaPrimeiroGameOv
 var pagBPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaSegundaFase.html'
 
 // Variáveis da Segunda Fase
-var botaoPrimeiraFase = document.querySelector('#botaoSegundaFase');
+var botaoSegundaFase = document.querySelector('#botaoSegundaFase');
 var pagASegundaFase = '../../html/mulherMaravilha/mulherMaravilhaSegundoGameOver.html'
 var pagBSegundaFase = '../../html/mulherMaravilha/mulherMaravilhaTerceiraFase.html'
 
