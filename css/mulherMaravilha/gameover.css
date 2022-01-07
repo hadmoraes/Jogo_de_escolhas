@@ -42,7 +42,7 @@ body{
 }
 
 
-.botaoVoltar a{
+.botaoVoltar span{
     text-transform: uppercase;
     color: rgb(0, 0, 0);
     border-radius: 20px;
@@ -53,12 +53,12 @@ body{
     font-size: large;
 }
 
-.botaoVoltar a:hover{
+.botaoVoltar span:hover{
     font-size: x-large;
     transition: 200ms;
 }
 
-.botaoVoltar a:active{
+.botaoVoltar span:active{
     color: white;
     transition: 100ms;
 }
