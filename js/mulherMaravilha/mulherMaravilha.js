@@ -39,5 +39,11 @@ botaoPrimeiraFase.addEventListener('click', function(event){
     abrePagSegundoEscolha(pagAPrimeiraFase, pagBPrimeiraFase, escolha);
 })
 
+// Executando Funções na Segunda Fase
+botaoSegundaFase.addEventListener('click', function(event){
+    aparecePrompt()
+    abrePagSegundoEscolha(pagASegundaFase, pagBSegundaFase, escolha);
+})
+
 
 
