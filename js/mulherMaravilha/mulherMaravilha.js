@@ -1,21 +1,6 @@
-var botaoPrimeiraFase = document.querySelector(".botaoEscolha");
+var escolha = prompt('Digite A ou B');
 
-function abrePagDaWeb (pagina){
-    window.open(pagina);
+while(escolha != 'A' && escolha != 'B' && escolha!= 'a' && escolha!= 'b'){
+    alert('Resposta inválida, digite apenas A ou B');
+    escolha = prompt('Digite A ou B');
 }
-
-function usuarioEscolhe(){
-    let escolha = prompt('Digite A ou B');
-    if(escolha == "A" || 'a'){
-        window.open('D:\Resilia\modulo1\projeto de fim de modulo\codigo\html\mulherMaravilha\mulherMaravilhaPrimeiroGameOver.html');
-    } else if(escolha == "B" || 'b'){
-        window.open("D:\Resilia\modulo1\projeto de fim de modulo\codigo\html\mulherMaravilha\mulherMaravilhaSegundaFase.html");
-    } else {
-        alert('Sua resposta não é válida. Digite apenas A ou B');
-//        window.open("D:\Resilia\modulo1\projeto de fim de modulo\codigo\html\mulherMaravilha\mulherMaravilhaPrimeiraFase.html");
-    }
-}
-
-botaoPrimeiraFase.addEventListener('click', function(event){
-    usuarioEscolhe()
-})
