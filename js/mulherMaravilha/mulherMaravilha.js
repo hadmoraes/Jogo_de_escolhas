@@ -1,8 +1,16 @@
+//Variáveis comuns a todos
+var escolha;
+
 // Variáveis da Primeira Fase
 var botaoPrimeiraFase = document.querySelector('#botaoPrimeiraFase');
 var pagAPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaPrimeiroGameOver.html'
 var pagBPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaSegundaFase.html'
-var escolha;
+
+// Variáveis da Segunda Fase
+var botaoPrimeiraFase = document.querySelector('#botaoSegundaFase');
+var pagASegundaFase = '../../html/mulherMaravilha/mulherMaravilhaSegundoGameOver.html'
+var pagBSegundaFase = '../../html/mulherMaravilha/mulherMaravilhaTerceiraFase.html'
+
 
 function aparecePrompt(){
     escolha = prompt('Digite A ou B');
