@@ -6,12 +6,19 @@ var escolha;
 
 function aparecePrompt(){
     escolha = prompt('Digite A ou B');
-    return escolha
+    validaEscolha(escolha);
+    return escolha;
 }
 
+function validaEscolha(escolha){
+    while(escolha != 'A' && escolha != 'B' && escolha!= 'a' && escolha!= 'b'){
+        alert('Resposta inválida, digite apenas A ou B');
+        escolha = prompt('Digite A ou B');
+    }
+}
 
 function abrePagSegundoEscolha(paginaA, paginaB, escolha){
-    if(escolha == "A" || 'a'){
+    if(escolha == "A" && 'a'){
         window.open(paginaA);
     } else{
         window.open(paginaB);
@@ -21,9 +28,6 @@ function abrePagSegundoEscolha(paginaA, paginaB, escolha){
 // Executando Funções na Primeira Fase
 botaoPrimeiraFase.addEventListener('click', function(event){
     aparecePrompt()
-    while(escolha != 'A' && escolha != 'B' && escolha!= 'a' && escolha!= 'b'){
-        alert('Resposta inválida, digite apenas A ou B');
-        escolha = prompt('Digite A ou B');
-    }
     abrePagSegundoEscolha(pagAPrimeiraFase, pagBPrimeiraFase, escolha);
 })
+
