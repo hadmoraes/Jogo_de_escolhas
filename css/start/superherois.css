@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=PT+Sans+Narrow:wght@700&family=Teko:wght@600&display=swap');
 
 body{
-    background-image: url("D:\Resilia\modulo1\projeto de fim de modulo\codigo\imagens\ligaDaJustica.png");
+    background-image: url("../../imagens/superHeroisDC.png");
     background-repeat: repeat-y;
     background-size: cover;
     background-color: rgb(0, 0, 0);
