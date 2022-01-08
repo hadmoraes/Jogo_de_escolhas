@@ -1,6 +1,6 @@
 // Variáveis 
 var botaoVoltar = document.querySelector('.botaoVoltar');
-var pagInicial = '../../html/start/escolherPersonagem.html'
+var pagInicial = '../../index.html'
 
 
 //Declarando função
