@@ -2,9 +2,9 @@
 var escolha;
 
 // Variáveis da Primeira Fase
-var botaoPrimeiraFase = document.querySelector('#botaoPrimeiraFase');
-var pagAPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaPrimeiroGameOver.html';
-var pagBPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaSegundaFase.html';
+var botaoFase1 = document.querySelector('#botaoPrimeiraFase');
+var pagAFase1 = '../../html/mulherMaravilha/mulherMaravilhaPrimeiroGameOver.html';
+var pagBFase1 = '../../html/mulherMaravilha/mulherMaravilhaSegundaFase.html';
 
 
 //Declarando funções
@@ -33,8 +33,8 @@ function abrePagConformeEscolha(paginaA, paginaB, escolha){
 }
 
 // Executando Funções na Primeira Fase
-botaoPrimeiraFase.addEventListener('click', function(event){
+botaoFase1.addEventListener('click', function(event){
     aparecePrompt();
-    abrePagConformeEscolha(pagAPrimeiraFase, pagBPrimeiraFase, escolha);
-    botaoPrimeiraFase.removeEventListener('click', this);
+    abrePagConformeEscolha(pagAFase1, pagBFase1, escolha);
+    botaoFase1.removeEventListener('click', this);
 })
