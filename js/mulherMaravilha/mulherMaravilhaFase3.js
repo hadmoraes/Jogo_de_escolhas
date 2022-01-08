@@ -1,5 +1,5 @@
 //Variáveis da Terceira Fase
-var botaoFase3 = document.querySelector('#botaoTerceiraFase');
+var botaoFase3 = document.querySelector('#botaoFase3');
 var pagAFase3 = '../../html/mulherMaravilha/mulherMaravilhaPerdeuJogo.html';
 var pagBFase3 = '../../html/mulherMaravilha/mulherMaravilhaGanhouJogo.html';
 
