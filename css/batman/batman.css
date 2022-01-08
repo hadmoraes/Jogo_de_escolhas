@@ -44,14 +44,14 @@ body{
 .escolhaA{
     display: flex;
     flex-direction: column;
-    background-color: #007cb6;
-    color: white;
+    background-color: #fff200e1;
+    color: black;
     height: 200px;
     width: 30%;
     padding: 3%;
     margin-right: 5%;
     margin-bottom: 5%;
-    border: 3px red solid;
+    border: 3px black solid;
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(68, 68, 68, 0.658);
     justify-content: space-around;
@@ -65,14 +65,14 @@ body{
 .escolhaB{
     display: flex;
     flex-direction: column;
-    background-color: #007cb6;
-    color: white;
+    background-color: #fff200e1;
+    color: black;
     height: 200px;
     width: 30%;
     padding: 3%;
     margin-left: 5%;
     margin-bottom: 5%;
-    border: 3px red solid;
+    border: 3px black solid;
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(68, 68, 68, 0.658);
     justify-content: space-around;
