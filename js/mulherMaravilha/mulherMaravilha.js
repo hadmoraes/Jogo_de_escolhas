@@ -11,6 +11,7 @@ var botaoSegundaFase = document.querySelector('#botaoSegundaFase');
 var pagASegundaFase = '../../html/mulherMaravilha/mulherMaravilhaTerceiraFase.html'
 var pagBSegundaFase = '../../html/mulherMaravilha/mulherMaravilhaSegundoGameOver.html'
 
+//Declarando funções
 
 function aparecePrompt(){
     escolha = prompt('Digite A ou B');

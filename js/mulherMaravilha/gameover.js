@@ -1,9 +1,17 @@
-var botao = document.querySelector(".botaoVoltar");
+// Variáveis 
+var botaoVoltar = document.querySelector('.botaoVoltar');
+var pagInicial = '../../html/start/escolherPersonagem.html'
 
-function recomeco(){
-    window.open("mulherMaravilhaPrimeiro.html");
-}
 
-botao.addEventListener('click', function(event){
-    recomeco()
+//Declarando função
+
+function abrePag(pag){
+        window.open(pag,"_self");
+    }
+
+
+// Executando Função
+botaoVoltar.addEventListener('click', function(event){
+    abrePag(pagInicial);
 })
+
