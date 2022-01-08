@@ -1,8 +1,8 @@
 // Variáveis da Segunda Fase
 var escolha;
-var botaoSegundaFase = document.querySelector('#botaoSegundaFase');
-var pagASegundaFase = '../../html/mulherMaravilha/mulherMaravilhaTerceiraFase.html';
-var pagBSegundaFase = '../../html/mulherMaravilha/mulherMaravilhaSegundoGameOver.html';
+var botaoFase2 = document.querySelector('#botaoSegundaFase');
+var pagAFase2 = '../../html/mulherMaravilha/mulherMaravilhaTerceiraFase.html';
+var pagBFase2 = '../../html/mulherMaravilha/mulherMaravilhaSegundoGameOver.html';
 
 //Declarando funções
 
@@ -30,7 +30,7 @@ function abrePagConformeEscolha(paginaA, paginaB, escolha){
 }
 
 // Executando Funções na Segunda Fase
-botaoSegundaFase.addEventListener('click', function(event){
+botaoFase2.addEventListener('click', function(event){
     aparecePrompt();
-    abrePagConformeEscolha(pagASegundaFase, pagBSegundaFase, escolha);
+    abrePagConformeEscolha(pagAFase2, pagBFase2, escolha);
 })
