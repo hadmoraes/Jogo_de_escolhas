@@ -3,7 +3,7 @@ var escolha;
 
 // Variáveis da Primeira Fase
 var botaoFase1 = document.querySelector('#botaoPrimeiraFase');
-var pagAFase1 = '../../html/mulherMaravilha/mulherMaravilhaPrimeiroGameOver.html';
+var pagAFase1 = '../../html/mulherMaravilha/mulherMaravilhaGameOver1.html';
 var pagBFase1 = '../../html/mulherMaravilha/mulherMaravilhaSegundaFase.html';
 
 
