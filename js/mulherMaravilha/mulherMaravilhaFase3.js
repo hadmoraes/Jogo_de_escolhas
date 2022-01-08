@@ -1,7 +1,7 @@
 //Variáveis da Terceira Fase
-var botaoTerceiraFase = document.querySelector('#botaoTerceiraFase');
-var pagATerceiraFase = '../../html/mulherMaravilha/mulherMaravilhaPerdeuJogo.html';
-var pagBTerceiraFase = '../../html/mulherMaravilha/mulherMaravilhaGanhouJogo.html';
+var botaoFase3 = document.querySelector('#botaoTerceiraFase');
+var pagAFase3 = '../../html/mulherMaravilha/mulherMaravilhaPerdeuJogo.html';
+var pagBFase3 = '../../html/mulherMaravilha/mulherMaravilhaGanhouJogo.html';
 
 //Declarando funções
 
@@ -29,7 +29,7 @@ function abrePagConformeEscolha(paginaA, paginaB, escolha){
 }
 
 // Executando Funções na Terceira Fase
-botaoTerceiraFase.addEventListener('click', function(event){
+botaoFase3.addEventListener('click', function(event){
     aparecePrompt()
-    abrePagConformeEscolha(pagATerceiraFase, pagBTerceiraFase, escolha);
+    abrePagConformeEscolha(pagAFase3, pagBFase3, escolha);
 })
