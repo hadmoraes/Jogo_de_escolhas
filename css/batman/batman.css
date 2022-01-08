@@ -88,7 +88,7 @@ h2{
 
 
 .botaoEscolha{
-    background-color: yellow;
+    background-color: black;
     border-radius: 10px;
     height: auto;
     padding: 2%;
@@ -97,13 +97,13 @@ h2{
 
 
 .botaoEscolha:active{
-    background-color: red;
+    background-color: #fff200 ;
     transition: 100ms;
 }
 
 .botaoEscolha span{
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: #fff200;
     border-radius: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -118,7 +118,7 @@ h2{
 }
 
 .botaoEscolha span:active{
-    color: white;
+    color: black;
     transition: 100ms;
 }
 
