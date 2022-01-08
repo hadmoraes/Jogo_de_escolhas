@@ -25,7 +25,7 @@ function validaEscolha(escolha){
     }
 }
 
-function abrePagSegundoEscolha(paginaA, paginaB, escolha){
+function abrePagConformeEscolha(paginaA, paginaB, escolha){
     if(escolha == "A"){
         window.open(paginaA,"_self");
     } else if(escolha == "a"){
@@ -38,13 +38,13 @@ function abrePagSegundoEscolha(paginaA, paginaB, escolha){
 // Executando Funções na Primeira Fase
 botaoPrimeiraFase.addEventListener('click', function(event){
     aparecePrompt()
-    abrePagSegundoEscolha(pagAPrimeiraFase, pagBPrimeiraFase, escolha);
+    abrePagConformeEscolha(pagAPrimeiraFase, pagBPrimeiraFase, escolha);
 })
 
 // Executando Funções na Segunda Fase
 botaoSegundaFase.addEventListener('click', function(event){
     aparecePrompt()
-    abrePagSegundoEscolha(pagASegundaFase, pagBSegundaFase, escolha);
+    abrePagConformeEscolha(pagASegundaFase, pagBSegundaFase, escolha);
 })
 
 
