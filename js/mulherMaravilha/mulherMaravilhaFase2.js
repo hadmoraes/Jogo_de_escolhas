@@ -1,7 +1,7 @@
 // Variáveis da Segunda Fase
 var escolha;
 var botaoFase2 = document.querySelector('#botaoFase2');
-var pagAFase2 = '../../html/mulherMaravilha/mulherMaravilhaTerceiraFase.html';
+var pagAFase2 = '../../html/mulherMaravilha/mulherMaravilhaFase3.html';
 var pagBFase2 = '../../html/mulherMaravilha/mulherMaravilhaGameOver2.html';
 
 //Declarando funções
