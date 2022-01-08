@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=PT+Sans+Narrow:wght@700&family=Teko:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
+/* Estilo Geral */
+
 body{
     background-color: rgb(0, 0, 0);
     font-family: 'PT Sans Narrow', sans-serif;
@@ -9,6 +11,12 @@ body{
 img{
     width: 150px;
 }
+
+img:hover{
+    width: 200px;
+    transition: 200ms;
+}
+
 
 .container{
     margin-top: 5%;
@@ -41,6 +49,12 @@ span{
     font-size: large;
 }
 
+h2:hover{
+    font-size: 40px;
+    transition: 200ms;
+}
+
+
 .herois{
     display: flex;
     flex-direction: column;
@@ -53,7 +67,6 @@ span{
     align-items: center;
 }
 
-
 .herois:hover{
     padding: 4%;
     transition: 200ms;
@@ -64,38 +77,18 @@ span{
     transition: 70ms;
 }
 
-#superHomem{
-    background-color: #062bb1;
-    color: black;
-    margin-right: 4%;
-    border: 3px red solid;
-}
-
-#superHomem:active{
-    background-color: red;
-    border: 3px #062bb1 solid;
-    color: white;
-}
-
 .botao{
     border-radius: 10px;
     height: auto;
     padding: 2%;
 }
 
-#botaoSuperHomem{
-    background-color: red;
-}
 
 .botao:hover{
     padding: 5%;
     transition: 200ms;
 }
 
-#botaoSuperHomem:active{
-    background-color: #062bb1;
-    transition: 70ms;
-}
 
 .botao a{
     text-transform: uppercase;
@@ -114,10 +107,36 @@ span{
     transition: 200ms;
 }
 
+/* Super-Homem*/
+
+#superHomem{
+    background-color: #062bb1;
+    color: black;
+    margin-right: 4%;
+    border: 3px red solid;
+}
+
+#superHomem:active{
+    background-color: red;
+    border: 3px #062bb1 solid;
+    color: white;
+}
+
+#botaoSuperHomem{
+    background-color: red;
+}
+
+#botaoSuperHomem:active{
+    background-color: #062bb1;
+    transition: 70ms;
+}
+
 #botaoSuperHomem a:active{
     color: black;
     transition: 70ms;
 }
+
+/* Batman*/
 
 #batman{
     background-color: #ffcb01;
@@ -146,6 +165,7 @@ span{
     transition: 70ms;
 }
 
+/* Mulher Maravilha */
 
 #mulherMaravilha{
     background-color: #ed1c23;
@@ -174,16 +194,7 @@ span{
 
 
 
-h2:hover{
-    font-size: 40px;
-    transition: 200ms;
-}
-
-img:hover{
-    width: 200px;
-    transition: 200ms;
-}
-
+/* Rodapé */
 
 footer{
     margin-top: 5%;
@@ -198,6 +209,8 @@ footer img:hover{
     width: 300px;
     transition: 200ms;
 }
+
+/* Design para mobile */
 
 @media (max-width:800px){
     .superherois{
