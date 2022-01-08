@@ -109,10 +109,11 @@ h2{
     text-decoration: none;
     padding: 10% 0 10% 0;
     font-family: 'Acme', sans-serif;
+    font-size: large;
 }
 
 .botaoEscolha span:hover{
-    font-size: large;
+    font-size: x-large;
     transition: 200ms;
 }
 
