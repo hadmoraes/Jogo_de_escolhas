@@ -36,6 +36,10 @@ h2{
     font-family: 'Anton', sans-serif;
 }
 
+span{
+    font-size: large;
+}
+
 
 .superHomem{
     display: flex;
