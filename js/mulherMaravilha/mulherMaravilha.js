@@ -3,13 +3,18 @@ var escolha;
 
 // Variáveis da Primeira Fase
 var botaoPrimeiraFase = document.querySelector('#botaoPrimeiraFase');
-var pagAPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaPrimeiroGameOver.html'
-var pagBPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaSegundaFase.html'
+var pagAPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaPrimeiroGameOver.html';
+var pagBPrimeiraFase = '../../html/mulherMaravilha/mulherMaravilhaSegundaFase.html';
 
 // Variáveis da Segunda Fase
 var botaoSegundaFase = document.querySelector('#botaoSegundaFase');
-var pagASegundaFase = '../../html/mulherMaravilha/mulherMaravilhaTerceiraFase.html'
-var pagBSegundaFase = '../../html/mulherMaravilha/mulherMaravilhaSegundoGameOver.html'
+var pagASegundaFase = '../../html/mulherMaravilha/mulherMaravilhaTerceiraFase.html';
+var pagBSegundaFase = '../../html/mulherMaravilha/mulherMaravilhaSegundoGameOver.html';
+
+//Variáveis da Terceira Fase
+var botaoTerceiraFase = document.querySelector('#botaoTerceiraFase');
+var pagATerceiraFase = '../../html/mulherMaravilha/mulherMaravilhaPerdeuJogo.html';
+var pagBTerceiraFase = '../../html/mulherMaravilha/mulherMaravilhaGanhouJogo.html';
 
 //Declarando funções
 
