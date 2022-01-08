@@ -26,7 +26,9 @@ function validaEscolha(escolha){
 }
 
 function abrePagSegundoEscolha(paginaA, paginaB, escolha){
-    if(escolha == "A" && 'a'){
+    if(escolha == "A"){
+        window.open(paginaA);
+    } else if(escolha == "a"){
         window.open(paginaA);
     } else{
         window.open(paginaB);
