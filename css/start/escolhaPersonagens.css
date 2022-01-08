@@ -42,7 +42,7 @@ img:hover{
 
 h2{
     font-size: xx-large;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 
 span{
@@ -96,7 +96,7 @@ h2:hover{
     font-weight: bold;
     text-decoration: none;
     padding: 10% 0 10% 0;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Acme', sans-serif;
     font-size: large;
     color: rgb(255, 255, 255);
 }
