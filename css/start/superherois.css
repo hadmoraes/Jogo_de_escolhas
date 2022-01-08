@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=PT+Sans+Narrow:wght@700&family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
 
 body{
     background-image: url("../../imagens/superHeroisDC.png");
@@ -27,13 +29,13 @@ body{
 }
 
 .explicacaoJogo{
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .comecarOJogo{
-    font-family: 'Anton', sans-serif;
-    font-size: x-large;
-    font-weight: bold;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: xx-large;
+    font-weight: 700 bold;
 }
 
 button{
@@ -43,7 +45,20 @@ button{
     padding: 2%;
 }
 
+
+button:hover{
+    background-color: rgba(70, 70, 70, 0.89);
+    transition: 200ms;
+}
+
+button:active{
+    background-color: rgba(255, 255, 255, 0.89);
+    transition: 100ms;
+}
+
 button a{
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     border-radius: 20px;
@@ -52,26 +67,16 @@ button a{
     padding: 10% 0 10% 0;
 }
 
-button:hover{
-    background-color: rgba(70, 70, 70, 0.89);
-    transition: 200ms;
-}
-
 button a:hover{
     color:  #bbbbbb;
-    font-size: larger;
+    font-size: xx-large;
     transition: 200ms;
 }
 
-
-button:active{
-    background-color: rgba(255, 255, 255, 0.89);
-    transition: 100ms;
-}
 
 button a:active{
     color:  #000000;
-    font-size: larger;
+    font-size: xx-large;
     transition: 200ms;
 }
 
