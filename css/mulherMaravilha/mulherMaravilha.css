@@ -145,10 +145,6 @@ footer img:hover{
         height: 250px;
     }
 
-    .escolhaA:hover{
-        height: 300px;
-        width: 80%;
-    }
 
     .escolhaB{
         width: 80%;
@@ -156,8 +152,4 @@ footer img:hover{
         height: 250px;
     }
 
-    .escolhaB:hover{
-        height: 300px;
-        width: 80%;
-    }
 }
