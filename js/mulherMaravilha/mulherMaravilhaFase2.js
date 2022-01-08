@@ -2,7 +2,7 @@
 var escolha;
 var botaoFase2 = document.querySelector('#botaoFase2');
 var pagAFase2 = '../../html/mulherMaravilha/mulherMaravilhaTerceiraFase.html';
-var pagBFase2 = '../../html/mulherMaravilha/mulherMaravilhaSegundoGameOver.html';
+var pagBFase2 = '../../html/mulherMaravilha/mulherMaravilhaGameOver2.html';
 
 //Declarando funções
 
