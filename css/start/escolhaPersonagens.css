@@ -41,31 +41,37 @@ span{
     font-size: large;
 }
 
-
-.superHomem{
+.herois{
     display: flex;
     flex-direction: column;
-    background-color: #062bb1;
-    color: black;
     height: auto;
     width: 30%;
     padding: 2%;
-    margin-right: 4%;
-    border: 3px red solid;
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(68, 68, 68, 0.658);
     justify-content: space-around;
     align-items: center;
 }
 
-.superHomem:hover{
+
+.herois:hover{
     padding: 4%;
     transition: 200ms;
 }
 
-.superHomem:active{
+.herois:active{
     padding: 4%;
     transition: 70ms;
+}
+
+#superHomem{
+    background-color: #062bb1;
+    color: black;
+    margin-right: 4%;
+    border: 3px red solid;
+}
+
+#superHomem:active{
     background-color: red;
     border: 3px #062bb1 solid;
     color: white;
@@ -113,32 +119,16 @@ span{
     transition: 70ms;
 }
 
-.batman{
-    display: flex;
-    flex-direction: column;
+#batman{
     background-color: #ffcb01;
-    height: auto;
-    width: 30%;
-    padding: 2%;
     margin-right: 4%;
     border: 3px black solid;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px 0px rgba(68, 68, 68, 0.658);
-    justify-content: space-around;
-    align-items: center;
 }
 
-.batman:hover{
-    padding: 4%;
-    transition: 200ms;
-}
-
-.batman:active{
-    padding: 4%;
-    transition: 70ms;
+#batman:active{
     background-color: black;
     border: 3px #ffcb01 solid;
-    color: white;
+    color: #ffcb01;
 }
 
 #botaoBatman{
@@ -157,28 +147,12 @@ span{
 }
 
 
-.mulherMaravilha{
-    display: flex;
-    flex-direction: column;
+#mulherMaravilha{
     background-color: #ed1c23;
-    height: auto;
-    width: 30%;
-    padding: 2%;
     border: 3px #007cb6 solid;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px 0px rgba(68, 68, 68, 0.658);
-    justify-content: space-around;
-    align-items: center;
 }
 
-.mulherMaravilha:hover{
-    padding: 4%;
-    transition: 200ms;
-}
-
-.mulherMaravilha:active{
-    padding: 4%;
-    transition: 70ms;
+#mulherMaravilha:active{
     background-color: #007cb6;
     border: 3px #ed1c23 solid;
     color: white;
@@ -232,16 +206,11 @@ footer img:hover{
         align-items: center;
         width: 100%;
     }
-    .superHomem{
+    .herois{
         width: 70%;
         margin: 0 0 4% 0;
     }
-    .batman{
-        width: 70%;
-        margin: 0 0 4% 0;
-    }
-    .mulherMaravilha{
-        width: 70%;
+    #mulherMaravilha{
         margin: 0;
     }
 }
