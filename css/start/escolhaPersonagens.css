@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=PT+Sans+Narrow:wght@700&family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 body{
     background-color: rgb(0, 0, 0);
@@ -70,40 +71,44 @@ span{
     color: white;
 }
 
-.botaoSuperHomem{
-    background-color: red;
+.botao{
     border-radius: 10px;
     height: auto;
     padding: 2%;
 }
 
-.botaoSuperHomem:hover{
+#botaoSuperHomem{
+    background-color: red;
+}
+
+.botao:hover{
     padding: 5%;
     transition: 200ms;
 }
 
-.botaoSuperHomem:active{
+#botaoSuperHomem:active{
     background-color: #062bb1;
     transition: 70ms;
 }
 
-.botaoSuperHomem a{
+.botao a{
     text-transform: uppercase;
-    color: rgb(255, 255, 255);
     border-radius: 20px;
     font-weight: bold;
     text-decoration: none;
     padding: 10% 0 10% 0;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: large;
+    color: rgb(255, 255, 255);
 }
 
-.botaoSuperHomem a:hover{
+
+.botao a:hover{
     font-size: x-large;
     transition: 200ms;
 }
 
-.botaoSuperHomem a:active{
+#botaoSuperHomem a:active{
     color: black;
     transition: 70ms;
 }
@@ -136,40 +141,17 @@ span{
     color: white;
 }
 
-.botaoBatman{
+#botaoBatman{
     background-color: black;
-    border-radius: 10px;
-    height: auto;
-    padding: 2%;
 }
 
-.botaoBatman:hover{
-    padding: 5%;
-    transition: 200ms;
-}
-
-.botaoBatman:active{
+#botaoBatman:active{
     background-color: #ffcb01;
     transition: 70ms;
 }
 
-.botaoBatman a{
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    border-radius: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 10% 0 10% 0;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: large;
-}
 
-.botaoBatman a:hover{
-    font-size: x-large;
-    transition: 200ms;
-}
-
-.botaoBatman a:active{
+#botaoBatman a:active{
     color: black;
     transition: 70ms;
 }
@@ -202,41 +184,16 @@ span{
     color: white;
 }
 
-.botaoMulherMaravilha{
+#botaoMulherMaravilha{
     background-color: #007cb6;
-    border-radius: 10px;
-    height: auto;
-    padding: 2%;
 }
 
-.botaoMulherMaravilha:hover{
-    padding: 5%;
-    transition: 200ms;
-}
-
-
-.botaoMulherMaravilha:active{
+#botaoMulherMaravilha:active{
     background-color: #ed1c23;
     transition: 70ms;
 }
 
-.botaoMulherMaravilha a{
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    border-radius: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 10% 0 10% 0;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: large;
-}
-
-.botaoMulherMaravilha a:hover{
-    font-size: x-large;
-    transition: 200ms;
-}
-
-.botaoMulherMaravilha a:active{
+#botaoMulherMaravilha a:active{
     color: black;
     transition: 70ms;
 }
