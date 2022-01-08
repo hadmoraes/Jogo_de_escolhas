@@ -36,5 +36,4 @@ function abrePagConformeEscolha(paginaA, paginaB, escolha){
 botaoFase1.addEventListener('click', function(event){
     aparecePrompt();
     abrePagConformeEscolha(pagAFase1, pagBFase1, escolha);
-    botaoFase1.removeEventListener('click', this);
 })
