@@ -27,11 +27,11 @@ function validaEscolha(escolha){
 
 function abrePagSegundoEscolha(paginaA, paginaB, escolha){
     if(escolha == "A"){
-        window.open(paginaA);
+        window.open(paginaA,"_self");
     } else if(escolha == "a"){
-        window.open(paginaA);
+        window.open(paginaA,"_self");
     } else{
-        window.open(paginaB);
+        window.open(paginaB,"_self");
     }
 }
 
