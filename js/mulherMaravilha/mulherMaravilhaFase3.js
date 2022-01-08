@@ -1,3 +1,6 @@
+//Variáveis comuns a todos
+var escolha;
+
 //Variáveis da Terceira Fase
 var botaoFase3 = document.querySelector('#botaoFase3');
 var pagAFase3 = '../../html/mulherMaravilha/mulherMaravilhaPerdeuJogo.html';
