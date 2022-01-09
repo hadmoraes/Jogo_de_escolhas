@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=PT+Sans+Caption:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Teko:wght@600&display=swap');
 
 body{
-    background-color: #000000;
+    background-color: #062bb1;
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
@@ -13,7 +13,7 @@ body{
     height: auto;
     display: flex;
     padding: 3%;
-    border: 2px #fff200 solid;
+    border: 2px yellow solid;
     border-radius: 35px;
     background-color: rgba(241, 241, 241, 0.685);
     flex-direction: column;
@@ -44,14 +44,14 @@ body{
 .escolhas{
     display: flex;
     flex-direction: column;
-    background-color: #fff200e1;
-    color: black;
+    background-color: red;
+    color: white;
     height: 200px;
     width: 30%;
     padding: 3%;
     margin-right: 5%;
     margin-bottom: 5%;
-    border: 3px black solid;
+    border: 3px #062bb1 solid;
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(68, 68, 68, 0.658);
     justify-content: space-around;
@@ -65,7 +65,7 @@ h2{
 
 
 .botaoEscolha{
-    background-color: black;
+    background-color: yellow;
     border-radius: 10px;
     height: auto;
     padding: 2%;
@@ -74,13 +74,13 @@ h2{
 
 
 .botaoEscolha:active{
-    background-color: #fff200 ;
+    background-color: #062bb1 ;
     transition: 100ms;
 }
 
 .botaoEscolha span{
     text-transform: uppercase;
-    color: #fff200;
+    color: black;
     border-radius: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -95,7 +95,7 @@ h2{
 }
 
 .botaoEscolha span:active{
-    color: black;
+    color: white;
     transition: 100ms;
 }
 
