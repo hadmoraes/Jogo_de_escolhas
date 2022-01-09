@@ -4,7 +4,7 @@
 
 body{
     background-image: url("../../imagens/superHeroisDC.png");
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(0, 0, 0);
     font-family: 'PT Sans Narrow', sans-serif;
