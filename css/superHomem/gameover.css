@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=PT+Sans+Caption:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Teko:wght@600&display=swap');
 
 body{
-    background-color: black;
+    background-color: #062bb1;
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
@@ -13,7 +13,7 @@ body{
     height: auto;
     display: flex;
     padding: 3%;
-    border: 2px #fff200 solid;
+    border: 2px yellow solid;
     border-radius: 35px;
     background-color: rgba(241, 241, 241, 0.685);
     flex-direction: column;
@@ -29,7 +29,7 @@ body{
 
 
 .botaoVoltar{
-    background-color: yellow;
+    background-color: red;
     border-radius: 10px;
     height: auto;
     padding: 2%;
@@ -37,14 +37,14 @@ body{
 
 
 .botaoVoltar:active{
-    background-color: black;
+    background-color: yellow;
     transition: 100ms;
 }
 
 
 .botaoVoltar span{
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: white;
     border-radius: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -59,7 +59,7 @@ body{
 }
 
 .botaoVoltar span:active{
-    color: #fff200;
+    color: black;
     transition: 100ms;
 }
 
