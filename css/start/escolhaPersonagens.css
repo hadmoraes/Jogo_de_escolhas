@@ -139,15 +139,15 @@ h2:hover{
 /* Batman*/
 
 #batman{
-    background-color: #ffcb01;
+    background-color: #fff200;
     margin-right: 4%;
     border: 3px black solid;
 }
 
 #batman:active{
     background-color: black;
-    border: 3px #ffcb01 solid;
-    color: #ffcb01;
+    border: 3px #fff200 solid;
+    color: #fff200;
 }
 
 #botaoBatman{
@@ -155,7 +155,7 @@ h2:hover{
 }
 
 #botaoBatman:active{
-    background-color: #ffcb01;
+    background-color: #fff200;
     transition: 70ms;
 }
 
