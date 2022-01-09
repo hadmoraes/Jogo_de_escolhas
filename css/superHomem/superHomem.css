@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=PT+Sans+Caption:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Teko:wght@600&display=swap');
+
+body{
+    background-color: #000000;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container{
+    margin-top: 3%;
+    margin-left: 17%;
+    margin-bottom: 5%;
+    width: 60%;
+    height: auto;
+    display: flex;
+    padding: 3%;
+    border: 2px #fff200 solid;
+    border-radius: 35px;
+    background-color: rgba(241, 241, 241, 0.685);
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.explicacao{
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.facaaEscolha{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.paiEscolhas{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.escolhas{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff200e1;
+    color: black;
+    height: 200px;
+    width: 30%;
+    padding: 3%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border: 3px black solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(68, 68, 68, 0.658);
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+h2{
+    font-family: 'Acme', sans-serif;
+}
+
+
+.botaoEscolha{
+    background-color: black;
+    border-radius: 10px;
+    height: auto;
+    padding: 2%;
+    align-self: center;
+}
+
+
+.botaoEscolha:active{
+    background-color: #fff200 ;
+    transition: 100ms;
+}
+
+.botaoEscolha span{
+    text-transform: uppercase;
+    color: #fff200;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10% 0 10% 0;
+    font-family: 'Acme', sans-serif;
+    font-size: large;
+}
+
+.botaoEscolha span:hover{
+    font-size: x-large;
+    transition: 200ms;
+}
+
+.botaoEscolha span:active{
+    color: black;
+    transition: 100ms;
+}
+
+footer{
+    text-align: center;
+}
+
+footer img{
+    width: 200px;
+}
+
+footer img:hover{
+    width: 300px;
+    transition: 300ms;
+}
+
+@media (max-width:800px){
+    .paiEscolhas{
+        flex-direction: column;
+    }
+    .escolhas{
+        width: 80%;
+        margin: 0 0 5% 0;
+        height: 250px;
+    }
+
+    #escolhaB{
+        margin-top: 5%;
+    }
+
+}
