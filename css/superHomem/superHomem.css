@@ -49,13 +49,20 @@ body{
     height: 200px;
     width: 30%;
     padding: 3%;
-    margin-right: 5%;
     margin-bottom: 5%;
     border: 3px #062bb1 solid;
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(68, 68, 68, 0.658);
     justify-content: space-around;
     align-items: center;
+}
+
+#escolhaA{
+    margin-right: 3%;
+}
+
+#escolhaB{
+    margin-left: 3%;
 }
 
 
@@ -118,12 +125,15 @@ footer img:hover{
     }
     .escolhas{
         width: 80%;
-        margin: 0 0 5% 0;
         height: 250px;
     }
 
+    #escolhaA{
+        margin: 0 0 5% 0;
+    }
+
     #escolhaB{
-        margin-top: 5%;
+        margin: 5% 0 5% 0;
     }
 
 }
