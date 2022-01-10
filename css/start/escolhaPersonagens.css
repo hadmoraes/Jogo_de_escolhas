@@ -223,7 +223,19 @@ footer img:hover{
         width: 70%;
         margin: 0 0 4% 0;
     }
+
+    #superHomem{
+        margin-right: 0;
+    }
+
+    #batman{
+        margin-right: 0 ;
+    }
     #mulherMaravilha{
         margin: 0;
+    }
+
+    .botao{
+        margin-bottom: 6%;
     }
 }
