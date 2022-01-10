@@ -80,6 +80,11 @@ footer img:hover{
 }
 
 @media (max-width:800px){
+    .container{
+        width: 80%;
+        margin-left: 7% ;
+    }
+    
     .escolhas{
         flex-direction: column;
     }
@@ -90,5 +95,9 @@ footer img:hover{
     .escolhaB{
         width: 70%;
         margin: 3% 0 3% 0;
+    }
+
+    .botaoVoltar{
+        margin-bottom: 10%;
     }
 }
