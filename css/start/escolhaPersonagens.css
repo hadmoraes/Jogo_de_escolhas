@@ -213,6 +213,11 @@ footer img:hover{
 /* Design para mobile */
 
 @media (max-width:800px){
+    .container{
+        width: 80%;
+        margin-left: 7%;
+    }
+
     .superherois{
         flex-direction: column;
         justify-content: center;
@@ -221,7 +226,7 @@ footer img:hover{
     }
     .herois{
         width: 70%;
-        margin: 0 0 4% 0;
+        margin: 0 0 7% 0;
     }
 
     #superHomem{
