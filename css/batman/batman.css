@@ -119,6 +119,11 @@ footer img:hover{
 }
 
 @media (max-width:800px){
+    .container{
+        width: 80%;
+        margin-left: 7% ;
+    }
+    
     .paiEscolhas{
         flex-direction: column;
     }
@@ -134,4 +139,7 @@ footer img:hover{
         margin: 5% 0 5% 0;
     }
 
+    .botaoEscolha{
+        margin-bottom: 10%;
+    }
 }
