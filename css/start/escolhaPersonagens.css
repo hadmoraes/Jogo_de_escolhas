@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=PT+Sans+Narrow:wght@700&family=Teko:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
-/* Estilo Geral */
 
 body{
     background-color: rgb(0, 0, 0);
@@ -107,7 +106,6 @@ h2:hover{
     transition: 200ms;
 }
 
-/* Super-Homem*/
 
 #superHomem{
     background-color: #062bb1;
@@ -136,7 +134,6 @@ h2:hover{
     transition: 70ms;
 }
 
-/* Batman*/
 
 #batman{
     background-color: #fff200;
@@ -165,7 +162,6 @@ h2:hover{
     transition: 70ms;
 }
 
-/* Mulher Maravilha */
 
 #mulherMaravilha{
     background-color: #ed1c23;
@@ -193,9 +189,6 @@ h2:hover{
 }
 
 
-
-/* Rodapé */
-
 footer{
     margin-top: 5%;
     text-align: center;
@@ -210,7 +203,6 @@ footer img:hover{
     transition: 200ms;
 }
 
-/* Design para mobile */
 
 @media (max-width:800px){
     .container{
