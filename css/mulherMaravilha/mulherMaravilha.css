@@ -50,7 +50,7 @@ body{
     width: 30%;
     padding: 3%;
     margin-bottom: 5%;
-    border: 3px red solid;
+    border: 3px #ed1c23 solid;
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(68, 68, 68, 0.658);
     justify-content: space-around;
@@ -81,7 +81,7 @@ h2{
 
 
 .botaoEscolha:active{
-    background-color: red;
+    background-color: #ed1c23;
     transition: 100ms;
 }
 
