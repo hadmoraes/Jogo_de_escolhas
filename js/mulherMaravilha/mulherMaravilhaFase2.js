@@ -1,13 +1,8 @@
-//Variáveis comuns a todos
 var escolha;
-
-
-// Variáveis da Segunda Fase
 var botaoFase2 = document.querySelector('#botaoFase2');
 var pagAFase2 = '../../html/mulherMaravilha/mulherMaravilhaFase3.html';
 var pagBFase2 = '../../html/mulherMaravilha/mulherMaravilhaGameOver2.html';
 
-//Declarando funções
 
 function aparecePrompt(){
     escolha = prompt('Digite A ou B');
@@ -32,7 +27,7 @@ function abrePagConformeEscolha(paginaA, paginaB, escolha){
     }
 }
 
-// Executando Funções na Segunda Fase
+
 botaoFase2.addEventListener('click', function(event){
     aparecePrompt();
     abrePagConformeEscolha(pagAFase2, pagBFase2, escolha);

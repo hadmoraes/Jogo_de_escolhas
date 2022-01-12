@@ -1,12 +1,8 @@
-//Variáveis comuns a todos
 var escolha;
 
-//Variáveis da Terceira Fase
 var botaoFase3 = document.querySelector('#botaoFase3');
 var pagAFase3 = '../../html/superHomem/superHomemGanhouJogo.html';
 var pagBFase3 = '../../html/superHomem/superHomemPerdeuJogo.html';
-
-//Declarando funções
 
 function aparecePrompt(){
     escolha = prompt('Digite A ou B');
@@ -31,7 +27,6 @@ function abrePagConformeEscolha(paginaA, paginaB, escolha){
     }
 }
 
-// Executando Funções na Terceira Fase
 botaoFase3.addEventListener('click', function(event){
     aparecePrompt()
     abrePagConformeEscolha(pagAFase3, pagBFase3, escolha);
