@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
 
 body{
+    overflow: scroll;
     background-image: url("../../imagens/superHeroisDC.png");
     background-repeat: no-repeat;
     background-size: cover;

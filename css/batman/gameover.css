@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=PT+Sans+Caption:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Teko:wght@600&display=swap');
 
 body{
+    overflow: scroll;
     background-color: black;
     font-family: 'PT Sans Narrow', sans-serif;
 }
