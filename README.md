@@ -1,14 +1,9 @@
 # Projeto Final do Módulo 1: Jogos Super-Heróis
 
-<div id="inicio" align=center>
-  <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;
-  <a href="#linguagens">Softwares & Ferramentas utilizadas</a>&nbsp;&nbsp;&nbsp;
-  <a href="#habilidades">Habilidades adquiridas</a>&nbsp;&nbsp;&nbsp;
-  <a href="#grupo">Autor</a> 
-</div>
 
-<h2 id="sobre">Sobre</h2>
-  <p>O projeto de encerramento do módulo 1 do curso Resilia Webdev é um jogo de escolhas. O jogo tem como mecanismo principal de funcionamento as escolhas feitas pelo usuário via prompt. Elas deverão levar o jogador, com o personagem escolhido através de toda uma narrativa. O projeto está disponível no link abaixo:</p>
+> ## Sobre
+
+  O projeto de encerramento do módulo 1 do curso Resilia Webdev é um jogo de escolhas. O jogo tem como mecanismo principal de funcionamento as escolhas feitas pelo usuário via prompt. Elas deverão levar o jogador, com o personagem escolhido através de toda uma narrativa. O projeto está disponível no link abaixo:
 
   - Deve ser possível jogar com ao menos 3 personagens diferentes e ao menos 3 etapas/fases devem ser implementadas para cada personagem;
   - Os textos da narrativa devem ser apresentados na página HTML;
@@ -22,18 +17,15 @@
 
 <br>
 
-<h2 id="andamento">Andamento do projeto 📈</h2>
+> ## Softwares & Ferramentas utilizadas nesse projeto 
 
+  - HTML5
+  - CSS3
+  - JavaScript
+  - Git
+  - Kanban
 
-<h2 id="linguagens">Softwares & Ferramentas utilizadas nesse projeto</h2>
-
-  - [x] HTML5
-  - [x] CSS3
-  - [x] JavaScript
-  - [x] Git
-  - [x] Kanban
-
-<h2 id="habilidades">Habilidades Adquiridas</h2>
+> ## Habilidades Adquiridas
 
   - Indentação do código
   - Tags semânticas (HTML)
@@ -48,7 +40,7 @@
 
 <hr>
 
-<h2 id="grupo">Autora</h2>
+> ## Autora
 
   - [Hadassa Moraes](https://www.linkedin.com/in/hadassa-moraes-5a6712230/)
 
