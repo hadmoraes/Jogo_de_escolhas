@@ -3,7 +3,9 @@
 
 > ## Sobre
 
-  O projeto de encerramento do módulo 1 do curso Resilia Webdev é um jogo de escolhas. O jogo tem como mecanismo principal de funcionamento as escolhas feitas pelo usuário via prompt. Elas deverão levar o jogador, com o personagem escolhido através de toda uma narrativa. O projeto está disponível no link abaixo:
+  O projeto de encerramento do módulo 1 do curso Resilia Webdev é um jogo de escolhas. O jogo tem como mecanismo principal de funcionamento as escolhas feitas pelo usuário via prompt. Elas deverão levar o jogador, com o personagem escolhido através de toda uma narrativa.
+
+> ## Pré-requisitos
 
   - Deve ser possível jogar com ao menos 3 personagens diferentes e ao menos 3 etapas/fases devem ser implementadas para cada personagem;
   - Os textos da narrativa devem ser apresentados na página HTML;
@@ -17,7 +19,7 @@
 
 <br>
 
-> ## Softwares & Ferramentas utilizadas nesse projeto 
+> ## Softwares e Ferramentas utilizadas nesse projeto 
 
   - HTML5
   - CSS3
@@ -45,6 +47,11 @@
   - [Hadassa Moraes](https://www.linkedin.com/in/hadassa-moraes-5a6712230/)
 
 <hr>
+
+
+> ## Site
+
+  Acesse o projeto clicando <a href="https://hadmoraes.github.io/jogoProjetoResiliaM1/">aqui</a>
 
 <div align="center">
   &#129145;&nbsp;<a href="#inicio"><strong>Voltar ao topo</strong></a>&nbsp;&#129145;
