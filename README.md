@@ -25,9 +25,9 @@
   - CSS3
   - JavaScript
   - Git
-  - Kanban
 
-> ## Habilidades Adquiridas
+
+> ## Habilidades Desenvolvidas
 
   - Indentação do código
   - Tags semânticas (HTML)
@@ -38,7 +38,6 @@
   - Responsividade (CSS)
   - Function (JS)
   - Condicionais IF, Else (JS)
-  - Utilização de metodologias ágeis (Kanban)
 
 <hr>
 
