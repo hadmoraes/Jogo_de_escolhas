@@ -50,7 +50,7 @@
 
 > ## Site
 
-  Acesse o projeto clicando <a href="https://hadmoraes.github.io/jogoProjetoResiliaM1/">aqui</a>
+  Acesse o projeto clicando <a href="https://hadmoraes.github.io/Jogo_de_escolhas/">aqui</a>
 
 <div align="center">
   &#129145;&nbsp;<a href="#inicio"><strong>Voltar ao topo</strong></a>&nbsp;&#129145;
